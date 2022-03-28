@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Design by foolishdeveloper.com -->
     <title>login</title>
  
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
-    <!--Stylesheet-->
     <style media="screen">
       *,
 *:before,
@@ -33,6 +31,9 @@ body{
     position: absolute;
     border-radius: 50%;
 }
+ .loginsocial{
+      text-decoration: none;  
+      }
 .shape:first-child{
     background: linear-gradient(
         #1845ad,
@@ -152,14 +153,11 @@ button{
         <button>Log In</button>
         <a href="forgotpassword.html" onclick="validate()">forgot password</a>
         <div class="social">
-          <div class="go"><i class="fab fa-google"></i>  Google</div>
-          <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
+          <a class="loginsocial" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.co.in/&ec=GAZAmgQ"><div class="go"><i class="fab fa-google"></i>  Google</div></a>
+         <a class="loginsocial" href="https://en-gb.facebook.com/login.php/"> <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div></a>
         </div>
     </form>
     <script src="scripts/login.js"> </script>
 
 </body>
 </html>
-
-
-
